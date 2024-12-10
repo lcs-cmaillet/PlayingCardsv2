@@ -12,9 +12,13 @@ struct SinglePlayerView: View {
         VStack {
             UnevenRoundedRectangle(cornerRadii: .init(bottomLeading: 50, bottomTrailing: 50))
                             .fill(.orange)
-            Text("James Turner")
+            Image("jamesTurnerRugby")
+                .resizable()
+                .scaledToFill()
+                .frame(height: 425)
         }
         .ignoresSafeArea()
+        
     }
 }
 
