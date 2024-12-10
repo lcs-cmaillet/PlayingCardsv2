@@ -9,9 +9,12 @@ import SwiftUI
 
 struct SinglePlayerView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 0) {
             UnevenRoundedRectangle(cornerRadii: .init(bottomLeading: 50, bottomTrailing: 50))
-                            .fill(.orange)
+                .fill(.yellow)
+                .padding(.bottom, 10)
+                .background(.darkGreen)
+//                .fill(.green)
             Image("jamesTurnerRugby")
                 .resizable()
                 .scaledToFill()
