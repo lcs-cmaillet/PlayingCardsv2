@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SinglePlayerView: View {
     var body: some View {
         VStack {
             UnevenRoundedRectangle(cornerRadii: .init(bottomLeading: 50, bottomTrailing: 50))
@@ -19,5 +19,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    SinglePlayerView()
 }

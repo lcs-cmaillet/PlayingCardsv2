@@ -6,24 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		85F156022D08BEB400AEEAA3 /* PlayingCards_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F156012D08BEB400AEEAA3 /* PlayingCards_v2App.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		857E9F492D03CADB0090BDFC /* PlayingCards v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PlayingCards v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F156012D08BEB400AEEAA3 /* PlayingCards_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCards_v2App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		857E9F4B2D03CADB0090BDFC /* PlayingCards v2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "PlayingCards v2";
-			sourceTree = "<group>";
-		};
-		857E9F5B2D03CFAB0090BDFC /* Views */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Views;
-			sourceTree = "<group>";
-		};
-		857E9F5C2D03D9380090BDFC /* shapes */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = shapes;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -42,8 +37,7 @@
 		857E9F402D03CADB0090BDFC = {
 			isa = PBXGroup;
 			children = (
-				857E9F5C2D03D9380090BDFC /* shapes */,
-				857E9F5B2D03CFAB0090BDFC /* Views */,
+				85F156012D08BEB400AEEAA3 /* PlayingCards_v2App.swift */,
 				857E9F4B2D03CADB0090BDFC /* PlayingCards v2 */,
 				857E9F4A2D03CADB0090BDFC /* Products */,
 			);
@@ -74,8 +68,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				857E9F4B2D03CADB0090BDFC /* PlayingCards v2 */,
-				857E9F5B2D03CFAB0090BDFC /* Views */,
-				857E9F5C2D03D9380090BDFC /* shapes */,
 			);
 			name = "PlayingCards v2";
 			packageProductDependencies = (
@@ -133,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F156022D08BEB400AEEAA3 /* PlayingCards_v2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
