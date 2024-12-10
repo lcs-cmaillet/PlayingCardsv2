@@ -16,6 +16,16 @@
 			path = "PlayingCards v2";
 			sourceTree = "<group>";
 		};
+		857E9F5B2D03CFAB0090BDFC /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		857E9F5C2D03D9380090BDFC /* shapes */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = shapes;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +42,8 @@
 		857E9F402D03CADB0090BDFC = {
 			isa = PBXGroup;
 			children = (
+				857E9F5C2D03D9380090BDFC /* shapes */,
+				857E9F5B2D03CFAB0090BDFC /* Views */,
 				857E9F4B2D03CADB0090BDFC /* PlayingCards v2 */,
 				857E9F4A2D03CADB0090BDFC /* Products */,
 			);
@@ -62,6 +74,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				857E9F4B2D03CADB0090BDFC /* PlayingCards v2 */,
+				857E9F5B2D03CFAB0090BDFC /* Views */,
+				857E9F5C2D03D9380090BDFC /* shapes */,
 			);
 			name = "PlayingCards v2";
 			packageProductDependencies = (
